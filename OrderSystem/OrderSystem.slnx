@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Inventory.Worker/Inventory.Worker.csproj" />
+  <Project Path="Notification.Worker/Notification.Worker.csproj" />
+  <Project Path="Order.API/Order.API.csproj" />
+  <Project Path="Payment.Worker/Payment.Worker.csproj" />
+  <Project Path="Shared.Contracts/Shared.Contracts.csproj" />
+</Solution>

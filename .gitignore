@@ -1,0 +1,55 @@
+## Ignore Visual Studio temporary files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+bin/
+obj/
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+## Logs
+*.log
+
+## OS generated files
+Thumbs.db
+.DS_Store
+
+## ASP.NET Core
+appsettings.Development.json
+
+## NuGet
+*.nupkg
+packages/
+.nuget/
+
+## Test Results
+TestResults/
+
+## Publish output
+publish/
+
+## Azure
+.localhistory/
+
+## Resharper
+_ReSharper*/
+*.DotSettings.user
+
+## Docker
+docker-compose.override.yml
+
+## Coverage files
+coverage/
+*.coverage
+*.coveragexml
+
+## Others
+*.dbmdl
