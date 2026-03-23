@@ -1,6 +1,6 @@
 using Confluent.Kafka;
+using Microsoft.Data.SqlClient;
 using Shared.Contracts;
-using System.Data.SqlClient;
 using System.Text.Json;
 
 namespace Payment.Worker
@@ -73,7 +73,10 @@ namespace Payment.Worker
                     // PRODUCE NEXT EVENT (Payment Completed)
                     var paymentEvent = new PaymentCompletedEvent
                     {
+                        EventId = Guid.NewGuid().ToString(),
                         OrderId = orderEvent.OrderId,
+                        ProductName = orderEvent.ProductName,
+                        Quantity =  orderEvent.Quantity,
                         Status = "Paid"
                     };
 
