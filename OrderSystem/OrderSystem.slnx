@@ -1,7 +1,9 @@
 <Solution>
-  <Project Path="Inventory.Worker/Inventory.Worker.csproj" />
-  <Project Path="Notification.Worker/Notification.Worker.csproj" />
-  <Project Path="Order.API/Order.API.csproj" />
-  <Project Path="Payment.Worker/Payment.Worker.csproj" />
-  <Project Path="Shared.Contracts/Shared.Contracts.csproj" />
+  <Project Path="Core/Order.Application/Order.Application.csproj" />
+  <Project Path="Core/Order.Domain/Order.Domain.csproj" />
+  <Project Path="Infrastructure/Order.Infrastructure/Order.Infrastructure.csproj" />
+  <Project Path="Shared/Shared.Contracts/Shared.Contracts.csproj" />
+  <Project Path="src/Inventory.Worker/Inventory.Worker.csproj" />
+  <Project Path="src/Order.API/Order.API.csproj" />
+  <Project Path="src/Payment.Worker/Payment.Worker.csproj" />
 </Solution>
